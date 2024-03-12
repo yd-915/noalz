@@ -19,7 +19,7 @@ export default function Header() {
         <HStack>
           <Icon as={Logo} boxSize={5} />
           <Heading as="h1" fontSize="2xl">
-            Heya!
+            BitHustle
           </Heading>
         </HStack>
       </Link>
