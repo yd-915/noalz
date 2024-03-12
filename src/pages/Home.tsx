@@ -54,7 +54,7 @@ export default function Home() {
       <CallToAction
         label="Lightning Fundraisers"
         title="Empower Dreams"
-        description="Fund projects and research with Bitcoin Lightning. LightningCharge! fundraising is instantly available without any fees."
+        description="Fund your open-source projects with Bitcoin Lightning. Fundraising is instantly available without any fees."
         ctaText="Start a fund"
         ctaAction={createZapGoal}
       />
@@ -76,8 +76,8 @@ export default function Home() {
       <FeaturedNotes />
       <CallToAction
         label="Your dreams await"
-        title="Get the boost you need. Start a fund for your own research or someone you know."
-        description="LightningCharge! was made possible by the folks at OpenSats."
+        title="Get the boost you need. Start a fund for your own project or someone else."
+        description="LightningCharge! is an open-source project made possible by the folks at OpenSats."
         ctaText="Start a fund"
         ctaAction={createZapGoal}
       />
