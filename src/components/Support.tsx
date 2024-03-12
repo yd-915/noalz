@@ -338,7 +338,7 @@ export default function Support() {
       )}
       <Stack align="center">
         <Text textAlign="center">
-          Heya! is possible thanks to hard working open source contributors and
+          BitHustle is possible thanks to hard working open source contributors and
           their supporters.
         </Text>
         <Text textAlign="center">Becoming a supporter comes with perks:</Text>
