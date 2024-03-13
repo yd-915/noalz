@@ -1,4 +1,4 @@
-import { Flex, HStack, Heading, Icon } from "@chakra-ui/react";
+import { Flex, HStack, Heading} from "@chakra-ui/react";
 
 import Login from "@goalz/components/Login";
 import Link from "@goalz/components/Link";
