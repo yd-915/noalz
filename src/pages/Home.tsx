@@ -7,7 +7,6 @@ import CallToAction from "@goalz/components/CallToAction";
 import FeaturedGoals from "@goalz/components/FeaturedGoals";
 import Features from "@goalz/components/Features";
 import Support from "@goalz/components/Support";
-import FeaturedNotes from "@goalz/components/FeaturedNotes";
 import Link from "@goalz/components/Link";
 import useSupporters from "@goalz/hooks/useSupporters";
 import { NEW_GOAL } from "@goalz/routes";
