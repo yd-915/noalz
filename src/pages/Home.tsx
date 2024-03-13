@@ -57,7 +57,7 @@ export default function Home() {
         ctaText="Start a fund"
         ctaAction={createZapGoal}
       />
-      <FeaturedGoals events={featuredGoals} />
+
       {!isLoggedOut && (
         <Link href="/all" mt={-16}>
           See all active goals
@@ -72,7 +72,7 @@ export default function Home() {
       />
       <Features />
       <Support />
-      <FeaturedNotes />
+
       <CallToAction
         label="Your dreams await"
         title="Get the boost you need. Start a fund for your own project or someone else."
