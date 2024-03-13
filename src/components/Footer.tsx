@@ -39,7 +39,7 @@ export default function Footer() {
       */}
       <Link
         variant="nav"
-        href="https://github.com/verbiricha/goalz"
+        href="https://github.com/yd-915/noalz"
         isExternal
         fontSize={fontSize}
       >
