@@ -2,7 +2,7 @@ import { Flex, HStack, Heading, Icon } from "@chakra-ui/react";
 
 import Login from "@goalz/components/Login";
 import Link from "@goalz/components/Link";
-import { Logo } from "@goalz/icons";
+
 
 export default function Header() {
   return (
@@ -17,7 +17,7 @@ export default function Header() {
     >
       <Link variant="nav" href="/">
         <HStack>
-          <Icon as={Logo} boxSize={5} />
+          
           <Heading as="h1" fontSize="2xl">
             BitHustle
           </Heading>
