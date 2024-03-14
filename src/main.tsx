@@ -36,7 +36,7 @@ import cacheAdapter from "@goalz/db";
 // NDK Instance
 const ndk = new NDK({
   explicitRelayUrls: DEFAULT_RELAYS,
-  outboxRelayUrls: ["wss://relay.snort.social", "wss://purplepag.es"],
+  outboxRelayUrls: ["wss://relay.snort.social", "wss://relay.nostr.info"],
   enableOutboxModel: true,
   cacheAdapter,
 });
