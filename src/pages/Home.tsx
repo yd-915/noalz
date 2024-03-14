@@ -8,7 +8,7 @@ import CallToAction from "@goalz/components/CallToAction";
 import Features from "@goalz/components/Features";
 import Support from "@goalz/components/Support";
 import Link from "@goalz/components/Link";
-import useSupporters from "@goalz/hooks/useSupporters";
+//import useSupporters from "@goalz/hooks/useSupporters";
 import { NEW_GOAL } from "@goalz/routes";
 //import { HEYA_PUBKEY } from "@goalz/const";
 
