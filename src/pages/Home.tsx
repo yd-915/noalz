@@ -1,10 +1,10 @@
- import { useMemo } from "react";
+import { useMemo } from "react";
 import { Stack } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { NDKSubscriptionCacheUsage } from "@nostr-dev-kit/ndk";
 
 import CallToAction from "@goalz/components/CallToAction";
-//import FeaturedGoals from "@goalz/components/FeaturedGoals";
+import FeaturedGoals from "@goalz/components/FeaturedGoals";
 import Features from "@goalz/components/Features";
 import Support from "@goalz/components/Support";
 import Link from "@goalz/components/Link";
@@ -40,9 +40,9 @@ export default function Home() {
       cacheUsage: NDKSubscriptionCacheUsage.PARALLEL,
     },
    );
-//  const featuredGoals = useMemo(() => {
-  //  return dedupeByPubkey(events);
-  //}, [events]);
+  const featuredGoals = useMemo(() => {
+    return dedupeByPubkey(events);
+  }, [events]);
 
   function createZapGoal() {
     navigate(NEW_GOAL);
