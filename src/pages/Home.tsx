@@ -28,7 +28,6 @@ export default function Home() {
         ids: [
           "nostr:nevent1qqsfhus8fz0sf6q7mhn7v78ggarcy5dm2dvrx8l8puut2f2749kvm2spzamhxue69uhhyetvv9ujucm4wfex2mn59en8j6gzyptswsrlvxfqhdv9k0n2zsvpy7dp6w6hnrzf4xdjcxq7m8ehn3h8kwzxwq6",
           "nostr:nevent1qqst3k6a7z5pecuvf8c8cuuen4lgtc4kc9kur7axmqftpuc6tauy4sgppemhxue69uhkummn9ekx7mp0qgs9wp6q0aseyza4ske7dg2psyne58fm27vvfx5ektqcrmvlx7wxu7cl6wnxv",
-          "060f4f06455ee0a87db48f7d5f23b532bcc133cea7dd3bc9f2a20226f1bf2705",
         ],
       },
       {
