@@ -1,7 +1,7 @@
 //import { useMemo } from "react";
 import { Stack } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import { NDKSubscriptionCacheUsage } from "@nostr-dev-kit/ndk";
+//import { NDKSubscriptionCacheUsage } from "@nostr-dev-kit/ndk";
 
 import CallToAction from "@goalz/components/CallToAction";
 //import FeaturedGoals from "@goalz/components/FeaturedGoals";
@@ -10,9 +10,9 @@ import Support from "@goalz/components/Support";
 import Link from "@goalz/components/Link";
 import useSupporters from "@goalz/hooks/useSupporters";
 import { NEW_GOAL } from "@goalz/routes";
-import { GOAL, HEYA_PUBKEY } from "@goalz/const";
+//import { HEYA_PUBKEY } from "@goalz/const";
 
-import useEvents from "@ngine/nostr/useEvents";
+//import useEvents from "@ngine/nostr/useEvents";
 import useSession from "@ngine/hooks/useSession";
 //import { dedupeByPubkey } from "@ngine/utils";
 
@@ -20,7 +20,7 @@ export default function Home() {
   const navigate = useNavigate();
   const [session] = useSession();
   const isLoggedOut = session === null;
-  const { events: supporters } = useSupporters(HEYA_PUBKEY);
+  //const { events: supporters } = useSupporters(HEYA_PUBKEY);
   //const { events } = useEvents(
     //[
      //{
